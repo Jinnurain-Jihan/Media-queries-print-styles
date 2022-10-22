@@ -1,0 +1,16 @@
+p{
+    background-color: aqua;
+    font-size: 10px;
+}
+@media print{
+    p{
+        background-color: green;
+        font-size: 40px;
+    }
+    img{
+        display: none;
+    }
+    div{
+        width: 200px;
+    }
+}
